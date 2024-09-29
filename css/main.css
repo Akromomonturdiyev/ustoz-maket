@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1924px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site__header {
+  padding-top: 32px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header__item {
+  font-family: "Geologica Cursive";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.header__link {
+  color: #0d182d;
+  text-decoration: none;
+}
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.login__first-info {
+  width: 168px;
+  color: #a3a3a3;
+  font-family: "Geologica Cursive";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.login__link-box {
+  display: flex;
+  padding: 10px 16px;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  border-radius: 16px;
+  border: 1px solid #00b962;
+}
+
+.login__link {
+  width: 176px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00b962;
+  font-family: "Geologica Cursive";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.login__link:before {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-image: url("../images/login.svg");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 8px;
+  content: "";
+}/*# sourceMappingURL=main.css.map */
