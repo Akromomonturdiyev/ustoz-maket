@@ -97,10 +97,29 @@
     content: "";
 }
 
-.header__secend-wrapper{
+.header__secend-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+}
+
+.header__secend-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    @include m();
+}
+
+.header__secend-link {
+    color: #12142d;
+    font-family: "Geologica Cursive";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
 }
 // site__header part finished

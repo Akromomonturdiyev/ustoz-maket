@@ -112,4 +112,25 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+}
+
+.header__secend-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header__secend-link {
+  color: #12142d;
+  font-family: "Geologica Cursive";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
