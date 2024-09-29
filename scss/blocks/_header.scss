@@ -96,4 +96,11 @@
     margin-right: 8px;
     content: "";
 }
+
+.header__secend-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
 // site__header part finished
